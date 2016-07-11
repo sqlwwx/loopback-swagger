@@ -44,7 +44,7 @@ describe('swagger definition', function() {
 
     it('provides info.title', function() {
       expect(swaggerResource.info)
-        .to.have.property('title', 'loopback-swagger');
+        .to.have.property('title', 'loopback-swaggernext');
     });
   });
 
