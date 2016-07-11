@@ -364,8 +364,9 @@ describe('swagger definition', function() {
 
       // the app does not have any public models,
       // therefore there should be no definitions
+      // default error models
       expect(Object.keys(swaggerResource.definitions))
-        .to.have.length(0);
+        .to.have.length(1);
     });
   });
 
