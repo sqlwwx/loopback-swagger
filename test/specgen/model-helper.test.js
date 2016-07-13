@@ -8,7 +8,7 @@
 var modelHelper = require('../../lib/specgen/model-helper');
 var TypeRegistry = require('../../lib/specgen/type-registry');
 var _defaults = require('lodash').defaults;
-var loopback = require('loopback');
+var loopback = require('loopbacknext');
 var expect = require('chai').expect;
 
 describe('model-helper', function() {

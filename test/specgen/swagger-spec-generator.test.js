@@ -7,7 +7,7 @@
 
 var _ = require('lodash');
 var url = require('url');
-var loopback = require('loopback');
+var loopback = require('loopbacknext');
 var createSwaggerObject = require('../..').generateSwaggerSpec;
 
 var expect = require('chai').expect;

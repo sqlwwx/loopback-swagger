@@ -9,7 +9,7 @@ var schemaBuilder = require('../../lib/specgen/schema-builder');
 var TypeRegistry = require('../../lib/specgen/type-registry');
 var format = require('util').format;
 var _defaults = require('lodash').defaults;
-var loopback = require('loopback');
+var loopback = require('loopbacknext');
 var expect = require('chai').expect;
 
 var ANY_TYPE = { $ref: '#/definitions/x-any' };

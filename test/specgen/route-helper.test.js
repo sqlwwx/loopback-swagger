@@ -9,7 +9,7 @@ var routeHelper = require('../../lib/specgen/route-helper');
 var TypeRegistry = require('../../lib/specgen/type-registry');
 var expect = require('chai').expect;
 var _defaults = require('lodash').defaults;
-var loopback = require('loopback');
+var loopback = require('loopbacknext');
 
 describe('route-helper', function() {
   it('returns "object" when a route has multiple return values', function() {
