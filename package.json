@@ -27,8 +27,8 @@
     "chai": "^3.2.0",
     "eslint": "^2.7.0",
     "eslint-config-loopback": "^1.0.0",
-    "loopback": "^2.21.0",
-    "loopback-datasource-juggler": "^2.39.0",
+    "loopback": "https://github.com/sqlwwx/loopback/tarball/next-loopback",
+    "loopback-datasource-juggler": "https://github.com/sqlwwx/loopback-datasource-juggler/tarball/next-loopback",
     "mocha": "^2.3.0"
   },
   "license": "MIT",
